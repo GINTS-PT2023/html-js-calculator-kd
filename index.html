@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EUR valūtas konvertētājs</title>
+  </head>
+  <body>
+    <div>
+      <h1>EUR valūtas konvertētājs</h1>
+
+      <div>
+        <div>
+          <label for="moneyInput">Money Amount</label>
+          <input type="number" id="moneyInput" />
+        </div>
+        <select name="currencySelection" id="currencySelection">
+          <option value="USD">USD</option>
+          <option value="GBP">GBP</option>
+          <option value="CHF">CHF</option>
+          <option value="SEK">SEK</option>
+        </select>
+      </div>
+      <div>
+        <button id="convertButton">Convert</button>
+      </div>
+    </div>
+    <div>
+      <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
